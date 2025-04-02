@@ -3,6 +3,9 @@
 
 const dodger = document.getElementById("dodger");
 
+dodger.style.bottom = "180px";
+dodger.style.left = "180px";
+
 
 
 document.addEventListener("keydown", function (e) {
