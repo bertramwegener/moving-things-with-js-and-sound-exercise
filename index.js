@@ -61,7 +61,7 @@ function moveDodgerUp() {
     const bottomNumbers = dodger.style.bottom.replace("px", "");
     const bottom = parseInt(bottomNumbers, 10);
 
-    if (bottom < 380) {
+    if (bottom < 360) {
         dodger.style.bottom = `${bottom + 10}px`;
         playSoundOnMovement();
     }
